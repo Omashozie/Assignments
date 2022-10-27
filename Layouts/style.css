@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.SEDANS {
+  background-color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  width: 400px;
+  height: 400px;
+  padding: 40px 40px 60px 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.SUVS {
+  background-color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  width: 400px;
+  height: 400px;
+  padding: 40px 40px 60px 40px;
+}
+
+.LUXURY {
+  background-color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  width: 400px;
+  height: 400px;
+  padding: 40px 40px 60px 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button {
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+}
+.link {float: left; background-color: aqua; color: blue; padding: 10px;}
+@media screen and (max-width:375px) { main{position: relative; 
+  flex-wrap: wrap;} 
+}

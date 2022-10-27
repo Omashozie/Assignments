@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <style>
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: chartreuse;
+      }
+      h3 {
+        font-family: fantasy;
+        font-style: oblique;
+        text-align: left;
+        color: brown;
+      }
+      .mail {
+        color: blue;
+        font-weight: bold;
+      }
+      .pw {
+        color: blue;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body style="background-color:gray;">
+    <form action="Registration.html">
+      <h1>WELCOME!</h1>
+      <br />
+      <h3>Please login here to Enter:</h3>
+
+      <div>
+        <label for="email" class="mail"> Enter Your Email: </label>
+        <input type="email" name="email" id="" required />
+      </div>
+      <br />
+      <div>
+        <label for="pword" class="pw">Input Password:</label>
+        <input
+          type="password"
+          name="pword"
+          id="pword"
+          value=""
+          placeholder="type your password"
+          required
+        />
+        <br>
+        <a href="Registration.html"> <input type="submit" value="Login">
+        </a> <!--please kindly note that my success page is linked as my registration page to make it look unique-->
+      </div>
+    </form>
+  </body>
+</html>
